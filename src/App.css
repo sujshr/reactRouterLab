@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  width: 100vw;
+  padding: 1rem;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease-in;
+}
+
+.link:hover{
+  color: aqua;
+}
+.page {
+  height: 50vh;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
