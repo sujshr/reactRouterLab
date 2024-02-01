@@ -10,7 +10,7 @@ nav {
 
 ul {
   list-style: none;
-  width: 200px;
+  width: 300px;
   display: flex;
   justify-content: space-between;
   text-decoration: none;
@@ -26,10 +26,19 @@ ul {
 .link:hover{
   color: aqua;
 }
+
 .page {
   height: 50vh;
   display: flex;
   width: 100vw;
   justify-content: center;
   align-items: center;
+}
+
+@media (width < 500px) {
+  nav{
+    flex-direction: column;
+    height: 15vh;
+    justify-content: space-between;
+  }
 }
